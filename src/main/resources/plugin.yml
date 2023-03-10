@@ -1,0 +1,6 @@
+name: WorldReset
+version: '${project.version}'
+main: de.Reset.WorldReset
+api-version: 1.19
+commands:
+  worldreset:
