@@ -1,6 +1,6 @@
-package de.worldreset;
+package de.bellobodo;
 
-import org.bukkit.Bukkit;
+import de.bellobodo.commands.ResetCommand;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public final class WorldReset extends JavaPlugin {
@@ -14,7 +14,7 @@ public final class WorldReset extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        getCommand("reset").setExecutor(new WorldReset());
+        getCommand("reset").setExecutor(new ResetCommand());
     }
 
     @Override

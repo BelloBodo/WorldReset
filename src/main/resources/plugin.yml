@@ -1,6 +1,6 @@
 name: WorldReset
 version: '${project.version}'
-main: de.Reset.WorldReset
+main: de.bellobodo.WorldReset
 api-version: 1.19
 commands:
-  worldreset:
+  reset:
